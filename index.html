@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3> Welcome to tic tac toe game play and enjoy</h3>
+    <div>
+      <input type="radio" id="pvp" name="game" /><label>Human</label>
+      <input type="radio" id="pvc" name="game" checked="checked" /><label
+        >Computer</label
+      >
+    </div>
+    <div>
+      <input type="radio" id="easy" name="pc" /><label>Easy Mode</label>
+      <input type="radio" id="medium" name="pc" /><label>Medium Mode</label>
+      <input type="radio" id="hard" name="pc" checked="checked" /><label
+        >Difficult Mode</label
+      >
+    </div>
+    <h1 id="end_game">Tic Tac Toe</h1>
+    <div class="game">
+      <table>
+        <tr>
+          <td class="box" id="0"></td>
+          <td class="box" id="1"></td>
+          <td class="box" id="2"></td>
+        </tr>
+        <tr>
+          <td class="box" id="3"></td>
+          <td class="box" id="4"></td>
+          <td class="box" id="5"></td>
+        </tr>
+        <tr>
+          <td class="box" id="6"></td>
+          <td class="box" id="7"></td>
+          <td class="box" id="8"></td>
+        </tr>
+      </table>
+    </div>
+    <h1 onclick="startGame()" id="reset">Reset</h1>
+    <h1 id="credit">Created with ❤️ by Ankur Singh</h1>
+    <!-- <button id="reset" onclick="startGame()">Reset</button> -->
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

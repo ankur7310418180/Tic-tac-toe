@@ -1,0 +1,56 @@
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+
+    border-radius: 10px;
+    background-color: #686e70;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+body{
+    font-family: "monserrat", sans-serif;
+    text-align: center;
+}
+
+/* small devies */
+@media screen and (max-width: 420px) {
+    td{
+        width: 70px;
+        height: 70px;
+        font-size:40px;
+    }
+}
+
+td:hover {
+    background-color: #5a6467;
+}
+
+table{
+    border-spacing:5px;
+    margin: auto;
+}
+
+.box{
+    transition: all 0.5s;
+}
+
+#reset{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#credit{
+    right: 0;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    font-size: 15px;
+    /* opacity: 0; */
+}
+
+#credit:hover{
+    opacity: 1;
+}
